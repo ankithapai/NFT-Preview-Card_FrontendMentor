@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+body{
+  /* background-color: hsl(217, 54%, 11%); */
+  background-color: hsl(217, 54%, 11%);
+  font: 15px "Outfit", sans-serif;
+}
+
+.container{
+  background-color: hsl(216, 50%, 16%);
+  height: 450px;
+  width: 300px;
+  color: white;
+  border-radius: 15px;
+  padding: 25px;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  margin: auto;
+}
+
+.pic{
+  height: 250px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+.picture .picView{
+  display: none;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    right: 0;
+    bottom: 189px;
+    margin: auto;
+}
+
+.picture:hover .picView{
+  display: inline;
+}
+
+.heading{
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.heading:hover{
+  color: hsl(178, 100%, 50%);;
+}
+
+.caption{
+  color: hsl(215, 51%, 70%);
+  opacity: 0.7;
+}
+
+.desc-1{
+  display: flex;
+  float: left;
+  padding-top: 18px;
+  color: hsl(178, 100%, 50%);
+  flex-direction: row;
+  align-items: center;
+}
+
+.desc-2{
+  display: flex;
+  float: right;
+  padding-top: 19px;
+  color: hsl(215, 51%, 70%);
+  flex-direction: row;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.ethCoin{
+  height: 16px;
+  padding-right: 6px;
+}
+
+.clock{
+  height: 16px;
+  padding-right: 6px;
+}
+
+/* .line hr{
+  height: 1px;
+  border:0;
+  background-color: hsl(215, 51%, 70%);;
+} */
+
+.user{
+  height: 37px;
+  padding-right: 13px;
+}
+
+.endSub{
+  color: hsl(215, 51%, 70%);
+  opacity: 0.7;
+  padding-right: 3px;
+}
+
+.name:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.end{
+  padding-top: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  float: left;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.attribution a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
